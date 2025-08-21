@@ -1,0 +1,34 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="HelloGuiApp.AddEntryWindow"
+        Width="450" Height="600"
+        MinHeight="600" MinWidth="450"
+        Title="Add Entry"
+        Background="rgba(104, 129, 141, 1)"
+        >
+    <StackPanel Margin="10">
+        <TextBlock Text="Title:"
+                    FontWeight="Bold" 
+                    FontSize="20" 
+                    Foreground="rgba(10, 66, 62, 1)"
+                    Margin="0,10,0,0"/>
+        <TextBox x:Name="TitleBox" Margin="0,5" TextWrapping="Wrap"/>
+        
+        <TextBlock Text="Your entry:"
+                    FontWeight="Bold" 
+                    FontSize="20" 
+                    Foreground="rgba(10, 66, 62, 1)"
+                    Margin="0,10,0,0"
+                    />
+        <TextBox x:Name="EntryTextBox" Margin="0,5" AcceptsReturn="True" Height="300" TextWrapping="Wrap" MaxLength="2048" TextChanged="OnTextChanged"/>
+        <StackPanel>
+            <TextBlock x:Name="CharCounter"
+               FontSize="12"
+               Foreground="Black"
+               FontWeight="Bold" 
+               HorizontalAlignment="Left"
+               Text="0/2048"/>
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Right" Click="OnSaveClick"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

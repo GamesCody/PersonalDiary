@@ -1,0 +1,14 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style Selector="Button.button">
+        <Setter Property="Foreground" Value="rgba(41, 38, 38, 1)"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="0,0,5,0"/>
+    </Style>
+        <Style Selector="Button:pointover">
+        <Setter Property="Foreground" Value="rgba(41, 38, 38, 1)"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+</Styles>
