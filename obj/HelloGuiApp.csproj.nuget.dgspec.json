@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/cody-urlik/C#/HelloGuiApp/HelloGuiApp.csproj": {}
+    "C:\\Projects\\C#\\Diary\\PersonalDiary\\HelloGuiApp.csproj": {}
   },
   "projects": {
-    "/home/cody-urlik/C#/HelloGuiApp/HelloGuiApp.csproj": {
+    "C:\\Projects\\C#\\Diary\\PersonalDiary\\HelloGuiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cody-urlik/C#/HelloGuiApp/HelloGuiApp.csproj",
+        "projectUniqueName": "C:\\Projects\\C#\\Diary\\PersonalDiary\\HelloGuiApp.csproj",
         "projectName": "HelloGuiApp",
-        "projectPath": "/home/cody-urlik/C#/HelloGuiApp/HelloGuiApp.csproj",
-        "packagesPath": "/home/cody-urlik/.nuget/packages/",
-        "outputPath": "/home/cody-urlik/C#/HelloGuiApp/obj/",
+        "projectPath": "C:\\Projects\\C#\\Diary\\PersonalDiary\\HelloGuiApp.csproj",
+        "packagesPath": "C:\\Users\\codyu\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\C#\\Diary\\PersonalDiary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/cody-urlik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\codyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -75,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

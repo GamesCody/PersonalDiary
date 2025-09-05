@@ -32,7 +32,7 @@
             <TextBlock Text="Entry History" 
                        FontWeight="Bold" 
                        FontSize="20" 
-                       Foreground="rgba(10, 66, 62, 1)"
+                       Foreground="rgba(20, 52, 54, 1)"
                        Margin="0,10,0,0"/>
 
             <Border Margin="5"
@@ -43,7 +43,7 @@
                     Padding="10">
 
                 <StackPanel x:Name="History">
-                    <!-- entrie here from MainWindow.axaml.cs -->
+                    <!-- entries here from MainWindow.axaml.cs -->
                 </StackPanel>
 
             </Border>
