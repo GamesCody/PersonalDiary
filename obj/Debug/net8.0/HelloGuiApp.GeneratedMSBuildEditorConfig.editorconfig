@@ -24,6 +24,9 @@ build_property.EnableCodeStyleSeverity =
 [c:/Projects/C\#/Diary/PersonalDiary/AddEntryWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[c:/Projects/C\#/Diary/PersonalDiary/AddReadWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [c:/Projects/C\#/Diary/PersonalDiary/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

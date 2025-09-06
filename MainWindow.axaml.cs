@@ -67,6 +67,12 @@ public partial class MainWindow : Window
                 Classes = { "button" },
                 Content = "Read"
             };
+            viewEntry.Click += (_, _) =>
+            {
+                var entryWindow = new AddReadWindow();
+                entryWindow.FillWithEntry(entry);
+                entryWindow.Show(); 
+            };
             var editEntry = new Button
             {
                 Classes = { "button" },
